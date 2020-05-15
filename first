@@ -1,0 +1,10 @@
+jQuery.prototype.html = function(html){
+	if(html!= undefined){
+	this.elements[0].innerHTML = newInnerHTML;
+  return this.elements[0].newInnerHTML;
+  }
+  else {
+  this.each(element => element.innerText) 
+  return this;
+  }
+}
