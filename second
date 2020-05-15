@@ -1,0 +1,10 @@
+jQuery.prototype.text = function(text){
+  if(text!= undefined){
+	this.each(element => element.innerText = text)
+  return this;
+  }
+  else {
+  this.each(element => element.innerText) 
+  return this;
+  }
+}
